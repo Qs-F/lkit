@@ -1,8 +1,8 @@
 {
-  "name": "fr0mscratch.com",
-  "version": "2.0.0",
+  "name": "lkit.dr-0x.com",
+  "version": "0.0.1",
   "main": "dist/index.html",
-  "repository": "git@github.com:Qs-F/fr0mscratch.com.git",
+  "repository": "git@github.com:Qs-F/lkit.git",
   "author": "Qs-F <qsf@de-liker.com>",
   "scripts": {
     "dev": "parcel src/index.html --open",
