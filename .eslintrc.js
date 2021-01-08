@@ -34,5 +34,6 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': 'parcel',
   },
 }
