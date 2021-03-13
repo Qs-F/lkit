@@ -12,9 +12,9 @@
   --color: var(--blackish-basis);
   --bg: var(--whitish);
   --basis: var(--whitish-basis);
-  --fonts: "YakuHanJP", "Inter", "Inter var", "Noto Sans JP", sans-serif;
-  --fonts-mono: "Roboto Mono", "Noto Sans JP", monospace;
-  --fonts-serif: "YakuHanMP", "Playfair Display", "Noto Serif JP", serif;
+  --fonts: 'YakuHanJP', 'Inter', 'Inter var', 'Noto Sans JP', sans-serif;
+  --fonts-mono: 'Roboto Mono', 'Noto Sans JP', monospace;
+  --fonts-serif: 'YakuHanMP', 'Playfair Display', 'Noto Serif JP', serif;
   --font-size-1: 8px;
   --font-size-2: 12px;
   --font-size-3: 16px;
