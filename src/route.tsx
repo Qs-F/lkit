@@ -1,9 +1,7 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react'
 import { FC } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { hydrate, render } from 'react-dom'
-import { App } from './app'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { App } from '/app'
 
 const Router: FC = () => (
   <BrowserRouter>
