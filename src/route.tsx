@@ -1,15 +1,13 @@
 import { FC } from 'react'
 import { hydrate, render } from 'react-dom'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { App } from '/app'
 
 const Router: FC = () => (
   <BrowserRouter>
-    <Switch>
-      <Route exact path="/">
-        <App />
-      </Route>
-    </Switch>
+    <Routes>
+      <Route path="/" element={<App />} />
+    </Routes>
   </BrowserRouter>
 )
 
