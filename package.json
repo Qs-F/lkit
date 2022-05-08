@@ -20,7 +20,7 @@
   },
   "inline": true,
   "devDependencies": {
-    "@de-liker/drts": "0.1.8",
+    "@de-liker/drts": "0.1.9",
     "@types/node": "16.11.27",
     "@types/react": "17.0.44",
     "@types/react-dom": "17.0.15",
