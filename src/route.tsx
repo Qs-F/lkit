@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { hydrate, render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { App } from '/app'
 
@@ -11,10 +11,11 @@ const Router: FC = () => (
   </BrowserRouter>
 )
 
-const root = document.getElementById('app')
-
-if (root?.hasChildNodes()) {
-  render(<Router />, root)
-} else {
-  hydrate(<Router />, root)
+const addRoot= (): Element => {
+  const element = document.createElement('div')
+  element.setAttribute('id', 'app')
+  document.body.appendChild(element)
+  return element
 }
+
+createRoot(document.getElementById('app') || addRoot()).render(<Router />)
