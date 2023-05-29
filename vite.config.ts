@@ -8,6 +8,6 @@ export default defineConfig({
     outDir: '../dist',
   },
   plugins: [
-    react({ jsxImportSource: '@emotion/react' }),
+    react(),
   ],
 })

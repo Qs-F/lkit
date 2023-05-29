@@ -21,10 +21,11 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
 
-    "types": ["vite/client", "@emotion/react/types/css-prop"],
+    "types": [
+      "vite/client"
+    ],
     "jsx": "react-jsx",
     "jsxFragmentFactory": "",
-    "jsxImportSource": "@emotion/react",
     "baseUrl": "./src",
     "paths": {
       "/*": ["./*"]
