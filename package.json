@@ -22,8 +22,8 @@
   "devDependencies": {
     "@de-liker/drts": "0.1.15",
     "@types/node": "18.16.16",
-    "@types/react": "18.2.7",
-    "@types/react-dom": "18.2.4",
+    "@types/react": "18.2.18",
+    "@types/react-dom": "18.2.7",
     "@types/react-router-dom": "5.3.3",
     "@vitejs/plugin-react": "4.0.0",
     "eslint": "8.41.0",
